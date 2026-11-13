@@ -1,13 +1,34 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>big-project-1</title>
-  </head>
-  <body>
-    
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>big-project-1</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body class="h-full w-full bg-(--bg-primary-color) text-(--text-primary-color) font-sans">
+  <main class="w-full h-full">
+    <section class="w-full h-full">
+      <div class="infos w-full flex justify-between items-center p-(--space-2xl)">
+        <div class="info p-(--space-sm) border-2 border-(--border-primary-color)">
+          <h3>High Score: <span>0</span></h3>
+        </div>
+        <div class="info p-(--space-sm) border-2 border-(--border-primary-color)">
+          <h3>Score: <span>0</span></h3>
+        </div>
+        <div class="info p-(--space-sm) border-2 border-(--border-primary-color)">
+          <h3>Time: <span>00:00</span></h3>
+        </div>
+      </div>
+      <div class="board">
+
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>

@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+:root {
+  /* background color */
+  --bg-primary-color: #141414;
+
+  /* text color */
+  --text-primary-color: #f1f1f1;
+
+  /* spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 36px;
+  --space-2xl: 40px;
+  --space-3xl: 48px;
+
+  /* border color */
+  --border-primary-color: #6b6b6b;
+
+  /* border radius */
+
+}
